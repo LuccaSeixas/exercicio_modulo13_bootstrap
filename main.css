@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: azure;
+    padding: 16px 0;
+    margin-bottom: 32px;
+}
+
+.carousel img{
+    height: 260px
+}
+
+@media screen and (max-width: 640px){
+    .container{
+        max-width: 90%;
+        width: 100%;
+    }
+    
+    header{
+        padding: 8px;
+    }
+
+    .row{
+        display: block;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+}
